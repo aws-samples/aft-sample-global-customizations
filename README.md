@@ -44,6 +44,12 @@ or
 
 Will you have non-production repositories forked from your production ones and use a pull request approach?
 
+With either strategy, it is unlikely you would want to replicate all of the accounts you require in your production environment in your testing one. For this reason is is recommended you have an instance of `aft-sample-account-request` per environment.
+
+For example:
+- `aft-account-request-sandbox`
+- `aft-account-request-production`
+
 ## Security
 
 See [CONTRIBUTING](CONTRIBUTING.md#security-issue-notifications) for more information.
